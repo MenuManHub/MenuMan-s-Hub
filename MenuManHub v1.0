@@ -1,0 +1,25 @@
+-- MenuMan Universal Loader
+
+local PlaceScripts = {
+-- Anime Card Collection
+    [76285745979410] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/MenuMan-s-ACC/main/Anime%20Card%20Collection%20v1.11"))()
+    end,
+-- World of Stands
+    [6728870912] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/MenuMan-s-WOS/refs/heads/main/WOS%20v1.11"))()
+    end,
+-- Anipixels
+    [102438325176100] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/MenuMan-s-AniPixel/refs/heads/main/Anipixels%20v1.3"))()
+    end,
+
+}
+
+local CurrentPlace = game.PlaceId
+
+if PlaceScripts[CurrentPlace] then
+    PlaceScripts[CurrentPlace]()
+else
+    warn("MenuMan Loader: No script assigned for this PlaceId -> "..CurrentPlace)
+end
