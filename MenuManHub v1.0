@@ -13,7 +13,10 @@ local PlaceScripts = {
     [102438325176100] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/MenuMan-s-AniPixel/refs/heads/main/Anipixels%20v1.3"))()
     end,
-
+-- Swing Obby for Brain Rots
+    [114640202062357] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/Swing-Obby-for-Brain-Rots/refs/heads/main/SO4BR"))()
+    end,
 }
 
 local CurrentPlace = game.PlaceId
