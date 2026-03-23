@@ -17,6 +17,10 @@ local PlaceScripts = {
     [114640202062357] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/Swing-Obby-for-Brain-Rots/refs/heads/main/SO4BR"))()
     end,
+-- Oil Empire
+    [107095834793267] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/Oil-Empire/refs/heads/main/Oil%20Empire%20v1.0")()
+    end,
 }
 
 local CurrentPlace = game.PlaceId
