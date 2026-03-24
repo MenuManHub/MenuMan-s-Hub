@@ -21,6 +21,10 @@ local PlaceScripts = {
     [107095834793267] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/Oil-Empire/refs/heads/main/Oil%20Empire%20v1.0"))()
     end,
+-- Climb a Mountain for Brainrots
+    [137768115850394] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/Climb-Mountain-4-BR/refs/heads/main/MountainBR"))()
+    end,
 }
 
 local CurrentPlace = game.PlaceId
