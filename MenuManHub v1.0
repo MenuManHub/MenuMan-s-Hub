@@ -25,6 +25,11 @@ local PlaceScripts = {
     [137768115850394] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/Climb-Mountain-4-BR/refs/heads/main/MountainBR"))()
     end,
+-- MegaBonk
+    [108026491991900] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/MegaBonk/refs/heads/main/MegaBonk%20v1.0"))()
+    end,
+
 }
 
 local CurrentPlace = game.PlaceId
