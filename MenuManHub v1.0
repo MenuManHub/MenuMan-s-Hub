@@ -29,7 +29,9 @@ local PlaceScripts = {
     [108026491991900] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/MegaBonk/refs/heads/main/MegaBonk%20v1.0"))()
     end,
-
+-- Draw & Slide
+    [135000370479961] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/Draw-Slide/refs/heads/main/Draw%20%26%20Slide"))()
 }
 
 local CurrentPlace = game.PlaceId
