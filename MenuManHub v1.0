@@ -40,5 +40,5 @@ local CurrentPlace = game.PlaceId
 if PlaceScripts[CurrentPlace] then
     PlaceScripts[CurrentPlace]()
 else
-    warn("MenuMan Loader: No script assigned for this PlaceId -> "..CurrentPlace)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MenuManHub/Universal/refs/heads/main/MenuMan's%20Universal"))()
 end
